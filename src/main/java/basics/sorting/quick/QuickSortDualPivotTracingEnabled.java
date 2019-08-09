@@ -9,7 +9,6 @@ import static basics.sorting.utils.SortUtils.intArrayToString3Space;
 import static basics.sorting.utils.SortUtils.isSorted;
 import static basics.sorting.utils.SortUtils.less;
 import static basics.sorting.utils.SortUtils.traceArrayToString3Space;
-import static org.junit.Assert.assertTrue;
 
 public class QuickSortDualPivotTracingEnabled {
 	
@@ -108,7 +107,6 @@ public class QuickSortDualPivotTracingEnabled {
 		sort (input, lt+1, gt-1);
 		sort(input, gt+1, highIndex);
 			
-		assertTrue(isSorted(input, lowIndex, highIndex));
 	}
 	
 	
